@@ -64,7 +64,7 @@ export default props => {
   return (
     <>
       <HoverlayButton anchorRef={buttonRef} onClick={() => setIsOpen(true)}>
-        <Label>Assigned To</Label>
+        <Label>Assigned to</Label>
         <StateValue>Kat Larsson</StateValue>
       </HoverlayButton>
       {isOpen && (
@@ -83,7 +83,9 @@ export default props => {
                 <div className="popover-top">
                   <div className="popover-header flex-center flex-row">
                     <div className="flex-grow">
-                      <Label className="font-weight-semibold">Assign to</Label>
+                      <div className="font-weight-semibold body-m">
+                        Assigned to
+                      </div>
                     </div>
                     <Button
                       onClick={() => setIsOpen(false)}

@@ -65,9 +65,9 @@ export default props => {
                 <div className="popover-top">
                   <div className="popover-header flex-center flex-row">
                     <div className="flex-grow">
-                      <Label className="font-weight-semibold">
-                        Update Some Field
-                      </Label>
+                      <div className="font-weight-semibold body-m">
+                        Some Field
+                      </div>
                     </div>
                     <Button
                       onClick={() => setIsOpen(false)}

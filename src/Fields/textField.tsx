@@ -47,7 +47,9 @@ export default props => {
                 <div className="popover-top">
                   <div className="popover-header flex-center flex-row">
                     <div className="flex-grow">
-                      <Label>Milestone</Label>
+                      <div className="font-weight-semibold body-m">
+                        Milestone
+                      </div>
                     </div>
                   </div>
                 </div>
