@@ -47,7 +47,7 @@ export default props => {
   return (
     <>
       <HoverlayButton anchorRef={buttonRef} onClick={() => setIsOpen(true)}>
-        <Label>Some Field</Label>
+        <Label className="body-s">Some Field</Label>
         <StateValue>{items["" + selectedIdx].text}</StateValue>
       </HoverlayButton>
       {isOpen && (

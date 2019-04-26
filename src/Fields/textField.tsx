@@ -33,7 +33,7 @@ export default props => {
           setIsOpen(true);
         }}
       >
-        <Label>Milestone</Label>
+        <Label className="body-s">Milestone</Label>
         <StateValue>{value}</StateValue>
       </HoverlayButton>
       {isOpen && (
